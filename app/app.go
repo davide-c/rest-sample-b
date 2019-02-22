@@ -21,7 +21,6 @@ func (a *App) Run(host string) {
 }
 
 func (a *App) Initialize(config *config.Config) {
-	log.Print("b")
 	dbURI := fmt.Sprintf("%s:%s@/%s?charset=%s&parseTime=True",
 		config.DB.Username,
 		config.DB.Password,

@@ -2,20 +2,22 @@
 
 ## Instructions
 
-run `go get github.com/gorilla/mux`
+### Dependencies
 
-run `go get github.com/gorilla/mux`
+run `go get github.com/davide-c/rest-sample-b`
 
-run `github.com/jinzhu/gorm/dialects/mysql`
-
-run `github.com/davide-c/rest-sample-b`
+### Run the server
 
 cd to project's folder then:
 
 run `docker-compose up`
 run `go run main.go`
 
-run `127.0.0.1:3000/property/`
+It listens on port `3000`
+
+### Hit the api with curl
+
+run `curl 127.0.0.1:3000/properties/`
 
 ### Available endpoints:
 
